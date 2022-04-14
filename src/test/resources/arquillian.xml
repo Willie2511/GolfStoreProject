@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arquillian xmlns="http://jboss.org/schema/arquillian"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://jboss.org/schema/arquillian https://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+    <defaultProtocol type="Servlet 3.0"/>
+<!--&lt;!&ndash;    Needed for Arquillian Test suite&ndash;&gt;-->
+    <extension qualifier="suite">
+        <property name="deploymentClass">com.golfstore.Arquillian.ArquillianDeployment</property>
+    </extension>
+    <container qualifier="wildfly" default="true">
+        <configuration>
+           <property name="jbossHome">/Users/Willie/Desktop/wildfly-13.0.0.Final</property>
+<!--            <property name="serverConfig">standalone-full-testing.xml</property>-->
+            <property name="modulePath">/Users/Willie/Desktop/wildfly-13.0.0.Final/modules</property>
+        </configuration>
+    </container>
+
+</arquillian>

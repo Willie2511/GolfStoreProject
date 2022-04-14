@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edeg" />
+    
+    
+    <title>Custom Golf Lounge</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrapV4.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    
+	
+    <link rel="icon" href="img/golf-icon.png" type="image">
+</head>
+<body>
+
+    <div class="container">
+
+        <nav class="header">
+            <div class="nav_container">
+                <div class="nav">
+                <ul class="nav-list nav-list-larger">
+                    <li class="nav-item nav-item-hidden">
+                    <a href="home.html" class="nav-link">
+                        <span class="custom">C</span> G <span class="custom">L</span>
+                    </a>
+                </li>
+                    <div class="navbar__toggle" id="mobile-menu">
+                        <!-- 3 bars used as dropdown menu logo-->
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Drivers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Irons</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Wedges</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Putters</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About Us</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#" class="button"> Log In </a>
+                </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="contentArea">
+
+    <!--- Sign In Form ----->
+		
+			
+            <div class="form">
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                <!-- Creating 2 buttons, one for Login and one for Register
+                Linked to the Script where we will be able to toggle between
+                our Login form and our Register form-->
+                        <button type="button" class="toggle-btn">
+                         Log In
+                        </button>
+                        <button type="button" class="toggle-btn" >
+                         Register
+                        </button>
+                    </div>
+            <!-- Social Media Icons Added -->
+                        <div class="social-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-google"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
+            <!-- Specifying Whats included in our Login Form
+            Both Username and Password are required, and placeholders provided-->
+                        <form  onsubmit="login(idField.value, passwordField.value);return false;" id="login" class="input-group">
+                            <input
+                            type="text"
+                            id = "idField"
+                            class="input-field"
+                            placeholder="Email Address"
+                            required
+                            />
+                            <input
+                            type="password"
+                            id = "passwordField"
+                            class="input-field"
+                            placeholder="Enter Password"
+                            required
+                            />
+                <!-- Remember checkbox-->
+                            <input type="checkbox" class="check-box" /><span
+                            >Remember Password</span>
+                <!-- Link to funtion in Script to Validate Login Details-->
+                            <button type="submit" class="submit-btn" id="loginSubmit">Log In</button>
+                        </form>
+            <!-- Specifying whats included in our Register Form.
+            User ID, Email Address and Password are all required
+            and placeholders are used.-->
+
+                        <form id="register" class="input-group">
+                            <input
+                            type="text"
+                            id= "username_2"
+                            class="input-field"
+                            placeholder="User ID"
+                            required
+                             />
+                            <input
+                            type="email"
+                            class="input-field"
+                            id = "email"
+                            placeholder="Email Address"
+                            required
+                            />
+                            <input
+                            type="password"
+                            id = "password_2"
+                            class="input-field"
+                            placeholder="Enter Password"
+                            required
+                            />
+
+                <!-- Terms and Conditions checkbox-->
+                            <input type="checkbox" class="check-box" required /><span
+                            >I agree to Terms and Conditions</span>
+                            <button type="submit" class="submit-btn" >Register</button>
+                        </form>
+                </div>
+                
+                <div id="customerList"></div>
+            </div>
+
+
+
+
+
+        </div>
+
+            <footer>
+
+                <div class="footer-content">
+                <h3><span class="custom">Custom</span> Golf <span class="custom">Lounge</span></h3>
+                <p>
+                Connect with us below on all Social Media Platforms.
+                </p>
+                <ul class="socials">
+                 <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                    </li>
+                    </ul>
+                </div>
+                 <div class="footer-bottom">
+                <p>
+                    copyright &copy;2020 CustomGolfLounge Ltd. Designed by
+                    <span>Willie Byrne</span>
+                </p>
+                </div>
+
+            </footer>
+    </div>
+
+</body>
+
+</html>

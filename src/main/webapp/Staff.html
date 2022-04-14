@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edeg" />
+    <title>Custom Golf Lounge</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script src="js/staff.js" type="text/javascript"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrapV4.js"></script>
+    <link rel="icon" href="img/golf-icon.png" type="image">
+</head>
+<body>
+
+    <div class="container3">
+
+        <nav class="header">
+            <div class="nav_container">
+                <div class="nav">
+                <ul class="nav-list nav-list-larger">
+                    <li class="nav-item nav-item-hidden">
+                    <a href="" class="nav-link">
+                        <span class="custom">C</span> G <span class="custom">L</span>
+                    </a>
+                </li>
+               
+                <li class="nav-item">
+                    <a href="" class="nav-link">Reports</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a href="Staff.html" class="nav-link">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a href="StaffCRUD.html" class="nav-link">Orders</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="login.html" class="button"> Log Out </a>
+                </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+<div class="wrapper">
+  <div class="payment">
+    <div class="payment-logo">
+      <p>CGL</p>
+    </div>
+    
+
+    <h2>Add Users</h2>
+    <div class="form2">
+      <div class="card4 space icon-relative">
+        <label class="label">Customer ID:</label>
+        <input type="number" class="input" id="idVal" placeholder="Id">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="card4 space icon-relative">
+        <label class="label">First Name:</label>
+        <input type="text" id="firstNameValue" class="input" placeholder="First Name">
+      </div>
+      <div class="card-grp space">
+        <div class="card-item icon-relative">
+          <label class="label">Last Name:</label>
+          <input type="text"id="lastNameValue" class="input"  placeholder="Last Name">
+        </div>
+        <div class="card-item icon-relative">
+          <label class="label">Contact Number:</label>
+          <input type="text" id="contactValue" class="input" data-mask="0000000000" placeholder="0000000000" minlength="5">
+          <i class="fas fa-lock"></i>
+        </div>
+        <div class="card-item icon-relative">
+          <label class="label">Email Address:</label>
+          <input type="text" id="emailValue" class="input" placeholder="example@email.com" minlength="5">
+          <i class="fas fa-lock"></i>
+        </div>
+          <div class="card-item icon-relative">
+          <label class="label">Password:</label>
+          <input type="password" id="passwordValue" class="input" placeholder="000000000000000" minlength="16" maxlength="16">
+          <i class="fas fa-lock"></i>
+        </div>
+      </div>
+      <div class="btn"> <button onclick="createUser(idVal.value, firstNameValue.value, lastNameValue.value, contactValue.value, emailValue.value, passwordValue.value); return false;"   type="submit" class="submit-btn" id="createButton">Create</button>
+      </div> 
+      
+    </div>
+  </div>
+  
+</div>
+        
+      
+
+            <footer style="margin-top: 20px">
+
+                <div class="footer-content">
+                <h3><span class="custom">Custom</span> Golf <span class="custom">Lounge</span></h3>
+                <p>
+                Connect with us below on all Social Media Platforms.
+                </p>
+                <ul class="socials">
+                 <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                    </li>
+                    </ul>
+                </div>
+                 <div class="footer-bottom">
+                <p>
+                    copyright &copy;2020 CustomGolfLounge Ltd. Designed by
+                    <span>Willie Byrne</span>
+                </p>
+                </div>
+
+            </footer>
+    </div>
+
+</body>
+
+</html>

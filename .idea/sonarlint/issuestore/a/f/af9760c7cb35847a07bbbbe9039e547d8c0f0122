@@ -1,0 +1,61 @@
+
+rjavascript:S3776"VRefactor this function to reduce its Cognitive Complexity from 1519 to the 15 allowed.(ˆè²Ô
+—javascript:S2681"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(òâ¿¾
+—javascript:S2681"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(òâ¿¾
+—javascript:S2681"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(òâ¿¾
+ejavascript:S1121"DExtract the assignment of "subClass.__proto__" from this expression.(œÉå¾úÿÿÿÿ
+Pjavascript:S1117€".'Util' is already declared in the upper scope.(Î†¦úÿÿÿÿ
+Sjavascript:S1481¼"6Remove the declaration of the unused 'Alert' variable.(Ã‡·¦
+Pjavascript:S1854¼"3Remove this useless assignment to variable "Alert".(Ã‡·¦
+Qjavascript:S1117â"/'Alert' is already declared in the upper scope.(÷³†„ûÿÿÿÿ
+Qjavascript:S1117ã"/'Alert' is already declared in the upper scope.(ìùê£øÿÿÿÿ
+Tjavascript:S1481ï"7Remove the declaration of the unused 'Button' variable.(ß¬Æ
+Qjavascript:S1854ï"4Remove this useless assignment to variable "Button".(ß¬Æ
+Mjavascript:S1117—"0'Button' is already declared in the upper scope.(æÊÔù
+Mjavascript:S1117˜"0'Button' is already declared in the upper scope.(¸×
+[javascript:S1481™"9Remove the declaration of the unused 'Carousel' variable.( ‰µ¸üÿÿÿÿ
+Xjavascript:S1854™"6Remove this useless assignment to variable "Carousel".( ‰µ¸üÿÿÿÿ
+Tjavascript:S1117é"2'Carousel' is already declared in the upper scope.(‘úšşÿÿÿÿ
+Tjavascript:S1117ê"2'Carousel' is already declared in the upper scope.(›ğ¹ÿÿÿÿÿ
+Vjavascript:S1481”"9Remove the declaration of the unused 'Collapse' variable.(ÂøÁ–
+Sjavascript:S1854”"6Remove this useless assignment to variable "Collapse".(ÂøÁ–
+Tjavascript:S1117Í"2'Collapse' is already declared in the upper scope.(®ë¹øıÿÿÿÿ
+Njavascript:S1117Î"2'Collapse' is already declared in the upper scope.(£Ä¾Q
+Vjavascript:S1481ÿ
+"9Remove the declaration of the unused 'Dropdown' variable.(ÒÊ¥İ
+Sjavascript:S1854ÿ
+"6Remove this useless assignment to variable "Dropdown".(ÒÊ¥İ
+Ojavascript:S1117Ñ"2'Dropdown' is already declared in the upper scope.(ô¨‚ó
+Tjavascript:S1117Ò"2'Dropdown' is already declared in the upper scope.(ÕÚœÿÿÿÿÿ
+`javascript:S3358ô"DExtract this nested ternary operation into an independent statement.(çÈ‹
+Sjavascript:S1481¨"6Remove the declaration of the unused 'Modal' variable.(Ğ§î¸
+Pjavascript:S1854¨"3Remove this useless assignment to variable "Modal".(Ğ§î¸
+Qjavascript:S1117ì"/'Modal' is already declared in the upper scope.(Õò’ìüÿÿÿÿ
+Kjavascript:S1117í"/'Modal' is already declared in the upper scope.(æŠğ
+Qjavascript:S1117Ú"/'event' is already declared in the upper scope.(òœ¯êüÿÿÿÿ
+ujavascript:S4144÷"XUpdate this function so that its implementation is not identical to the one on line 734.(„‘Ç„
+Ujavascript:S1117–"8'callbackRemove' is already declared in the upper scope.(†¾è
+Qjavascript:S1135©"4Complete the task associated to this "TODO" comment.(°ùÅÅ
+Tjavascript:S1117Ë"7'actualPadding' is already declared in the upper scope.(Ñ½Å¡
+]javascript:S1117Ì";'calculatedPadding' is already declared in the upper scope.(ºÁÏ÷ùÿÿÿÿ
+Sjavascript:S1117á"1'padding' is already declared in the upper scope.(ÇÖ¥µùÿÿÿÿ
+Wjavascript:S1481ã":Remove the declaration of the unused 'ScrollSpy' variable.(¥ƒÖ€
+Tjavascript:S1854ã"7Remove this useless assignment to variable "ScrollSpy".(¥ƒÖ€
+Ujavascript:S1117 "3'ScrollSpy' is already declared in the upper scope.(ºÑÌşÿÿÿÿ
+Ujavascript:S1117¡"3'ScrollSpy' is already declared in the upper scope.(æ¢ôŸıÿÿÿÿ
+Vjavascript:S1135Ö"4Complete the task associated to this "TODO" comment.(Âµû£ÿÿÿÿÿ
+Qjavascript:S1481"4Remove the declaration of the unused 'Tab' variable.(ñà•¡
+Njavascript:S1854"1Remove this useless assignment to variable "Tab".(ñà•¡
+Jjavascript:S1117Ì"-'Tab' is already declared in the upper scope.(è•¦‹
+Jjavascript:S1117Í"-'Tab' is already declared in the upper scope.(İÑ­ù
+Sjavascript:S1117€"1'Tooltip' is already declared in the upper scope.(°ô†¼ÿÿÿÿÿ
+Njavascript:S1117"1'Tooltip' is already declared in the upper scope.(ŠáÒ¨
+Ojavascript:S1117¦"2'complete' is already declared in the upper scope.(á½œ±
+Wjavascript:S1121ÿ":Extract the assignment of "this.tip" from this expression.(Ê¸°¸
+Zjavascript:S1481º"8Remove the declaration of the unused 'Popover' variable.(–‘¡úÿÿÿÿ
+Wjavascript:S1854º"5Remove this useless assignment to variable "Popover".(–‘¡úÿÿÿÿ
+Sjavascript:S1117ò"1'Popover' is already declared in the upper scope.(ÌùÄÆúÿÿÿÿ
+Njavascript:S1117õ"1'Popover' is already declared in the upper scope.(’¤°
+Wjavascript:S1121†":Extract the assignment of "this.tip" from this expression.(Ê¸°¸
+vjavascript:S4144™"YUpdate this function so that its implementation is not identical to the one on line 3528.(ä©–ï
+`javascript:S3358¦"DExtract this nested ternary operation into an independent statement.(çÈ‹
